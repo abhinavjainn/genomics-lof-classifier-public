@@ -1,5 +1,14 @@
-# genomics-lof-classifier-public
-Classification of genetic loss-of-function variants using machine learning
+# LOF Classifier - public repository
+Classification of the loss-of-function genetic variants into Benign, Pathogenic and Likely pathogenic classes using Machine Learning.
+
+
+# Predictions using the final XGBoost model
+[Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing).
+
+
+Prediction pipeline has two steps: 1. Preprocess the features and if available, true labels. 2. Load the model and make predictions. Python notebooks are available [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/prediction-using-trained-model).
+
+# Dataset creation, pre-processing and modelling details
 
 ## 1. Dataset
 
@@ -56,9 +65,3 @@ Since annotation were found only for a few variants, these annotations were disc
 
 ### 2.3 PCA version of data
 [Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/model-training-testing-evaluation) with training, testing and evaluation results.
-
-## 3. Predictions using the final XGBoost model
-[Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing).
-
-
-Prediction pipeline has two steps: 1. Preprocess the features and if available, true labels. 2. Load the model and make predictions. Python notebooks are [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/prediction-using-trained-model).
