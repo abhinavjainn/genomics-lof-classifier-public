@@ -41,7 +41,24 @@ Python notebook is [here](https://github.com/abhinavjainn/genomics-lof-classifie
 
 
 #### 1.2.5 Part-5 CADD Annotations
-[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing)
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing),
 Processsed using Google Colab Pro (high capacity RAM) and Google Drive.
 CADD annotations downloaded from [Washingtom Uni. portal](https://cadd.gs.washington.edu/download). Indels donwload [link](https://kircherlab.bihealth.org/download/CADD/v1.6/GRCh37/gnomad.genomes.r2.1.1.indel.tsv.gz). SNVs data split in two parts available here: [Part1](https://drive.google.com/file/d/1uxVQQR2IOwZSg9gqzCsbe5lsOiLkue3k/view?usp=sharing), [Part2](https://drive.google.com/file/d/1Y8ZMeJIUotMn6BF_AXTeCyOmVRSPvc0p/view?usp=sharing).
 Since annotation were found only for a few variants, these annotations were discarded and not used for modelling.
+
+## 2. Model Training, Testing and Evaluation
+
+### 2.1 Original version of data
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/model-training-testing-evaluation) with training, testing and evaluation results.
+
+### 2.2 SMOTE version of data
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/model-training-testing-evaluation) with training, testing and evaluation results.
+
+### 2.3 PCA version of data
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/model-training-testing-evaluation) with training, testing and evaluation results.
+
+## 3. Predictions using the final XGB model
+[Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing).
+
+
+Prediction pipeline has two steps: 1. Preprocess the features and if available, true labels. 2. Load the model and make predictions. Python notebooks are [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/prediction-using-trained-model).
