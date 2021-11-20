@@ -3,7 +3,7 @@ Classification of the loss-of-function genetic variants into Benign, Pathogenic 
 
 
 # Predictions using the final XGBoost model
-[Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing).
+[Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1JBPjCurjDPYHGHdf161gnwgNNauCPrbk/view?usp=sharing).
 
 
 Prediction pipeline has two steps: 1. Preprocess the features and if available, true labels. 2. Load the model and make predictions. Python notebooks are available [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/prediction-using-trained-model).
