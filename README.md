@@ -57,7 +57,7 @@ Since annotation were found only for a few variants, these annotations were disc
 ### 2.3 PCA version of data
 [Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/model-training-testing-evaluation) with training, testing and evaluation results.
 
-## 3. Predictions using the final XGB model
+## 3. Predictions using the final XGBoost model
 [Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing).
 
 
