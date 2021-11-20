@@ -38,3 +38,10 @@ Python notebook is [here](https://github.com/abhinavjainn/genomics-lof-classifie
 [Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing),
 [Training features/Principal components](https://drive.google.com/file/d/1-3nHk_qIOyUEUntlAM4dhxvjLFzRDShM/view?usp=sharing),
 [Labels](https://drive.google.com/file/d/1--WbOIeLzNkpKEhboXJAsh7ARBzwWBQp/view?usp=sharing) 
+
+
+#### 1.2.5 Part-5 CADD Annotations
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing)
+Processsed using Google Colab Pro (high capacity RAM) and Google Drive.
+CADD annotations downloaded from [Washingtom Uni. portal](https://cadd.gs.washington.edu/download). Indels donwload [link](https://kircherlab.bihealth.org/download/CADD/v1.6/GRCh37/gnomad.genomes.r2.1.1.indel.tsv.gz). SNVs data split in two parts available here: [Part1](https://drive.google.com/file/d/1uxVQQR2IOwZSg9gqzCsbe5lsOiLkue3k/view?usp=sharing), [Part2](https://drive.google.com/file/d/1Y8ZMeJIUotMn6BF_AXTeCyOmVRSPvc0p/view?usp=sharing).
+Since annotation were found only for a few variants, these annotations were discarded and not used for modelling.
