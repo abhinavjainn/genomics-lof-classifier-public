@@ -35,4 +35,6 @@ Python notebook is [here](https://github.com/abhinavjainn/genomics-lof-classifie
 [Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing)
 
 #### 1.2.4 Part-4 Perform PCA and save data for training.
-[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing)
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing),
+[Training features/Principal components](https://drive.google.com/file/d/1-3nHk_qIOyUEUntlAM4dhxvjLFzRDShM/view?usp=sharing),
+[Labels](https://drive.google.com/file/d/1--WbOIeLzNkpKEhboXJAsh7ARBzwWBQp/view?usp=sharing) 
