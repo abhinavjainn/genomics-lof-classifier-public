@@ -23,3 +23,8 @@ Data downloaded from [gnmoAD protal](https://gnomad-public-us-east-1.s3.amazonaw
 This data cannot be made public due to restrcited access. VEP annotations added to the data are publicly available using Ensembl browser [here](https://www.ensembl.org/Tools/VEP).
 
 ### 1.2 Data Cleaning and Preprocessing
+
+#### 1.2.1 Part-1 gnomAD Variants and Constraint metric
+Python notebook is available [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/blob/main/pre-processing/lof_variants_pre_processing_part_1_gnomAD.ipynb). Processsed using Google Colab and Google Drive.
+Output is availabe [here](https://drive.google.com/file/d/1h_0lTXiiWbw_uBqIi7CbJPGs-fwCfYDP/view?usp=sharing).
+
