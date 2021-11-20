@@ -28,7 +28,11 @@ This data cannot be made public due to restrcited access. VEP annotations added 
 Python notebook is available [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing). Processsed using Google Colab and Google Drive.
 Output is availabe [here](https://drive.google.com/file/d/1cVzB7YJRDjEwNoiE3KUMYLBXnM2MC2cu/view?usp=sharing).
 
-#### 1.2.2 Part-2 Combine gnomAD and ELGH data, CADD
+#### 1.2.2 Part-2 Combine gnomAD and ELGH data
 Python notebook is [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing). VEP annotations dowloaded from Ensembl VEP, available [here](https://drive.google.com/file/d/1FDlkUqxFhF8P_TbbyQlK8s8hA3VkWWjy/view?usp=sharing). Processsed using Google Colab and Google Drive. Rest of the data of this part cannot be published.
 
+#### 1.2.3 Part-3 Save test data. SMOTE oversampling.
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing)
 
+#### 1.2.4 Part-4 Perform PCA and save data for training.
+[Python notebook](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/pre-processing)
