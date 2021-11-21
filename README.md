@@ -8,6 +8,9 @@ Classification of the loss-of-function genetic variants into Benign, Pathogenic 
 
 Prediction pipeline has two steps: 1. Preprocess the features and if available, true labels. 2. Load the model and make predictions. Python notebooks, model and sample files are available [here](https://github.com/abhinavjainn/genomics-lof-classifier-public/tree/main/prediction-using-trained-model).
 
+
+gnomAD's variant data csv schema is a very close match to the prediction template. Fastest way to prepare prediction data in required template is to download the variant in csv from [gnomAD](https://gnomad.broadinstitute.org/). 
+
 # Dataset creation, pre-processing and modelling details
 
 ## 1. Dataset
