@@ -29,7 +29,7 @@ Java source code for extraction is available [here](https://github.com/abhinavja
 Combined output of the extraction is available [here](https://drive.google.com/file/d/1I-UJEMG9mfN8uDdEW7ModST08XzKhr5l/view?usp=sharing).
 
 ##### 1.1.1.3 Constraints
-Data downloaded from [gnmoAD protal](https://gnomad-public-us-east-1.s3.amazonaws.com/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_transcript.txt.bgz).
+Data downloaded from [gnmoAD portal](https://gnomad-public-us-east-1.s3.amazonaws.com/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_transcript.txt.bgz).
 
 #### 1.1.2 ELGH (East London Genes and Health) data
 This data cannot be made public due to restrcited access. VEP annotations added to the data are publicly available using Ensembl browser [here](https://www.ensembl.org/Tools/VEP).
