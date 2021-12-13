@@ -1,6 +1,8 @@
 # LOF Classifier - public repository
 Classification of the loss-of-function genetic variants into Benign, Pathogenic and Likely pathogenic classes using Machine Learning.
 
+Published Paper: [https://arxiv.org/abs/2112.05154](https://arxiv.org/abs/2112.05154)
+
 
 # Predictions using the final XGBoost model
 [Prediction template for features](https://drive.google.com/file/d/1zJHIA_zAdgbdzRv8iB5GbU7pBynJH4Hk/view?usp=sharing), [Prediciton template for true labels (optional)](https://drive.google.com/file/d/1JBPjCurjDPYHGHdf161gnwgNNauCPrbk/view?usp=sharing).
